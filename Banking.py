@@ -51,11 +51,11 @@ class BankingApplication:
             print("You provided an invalid input.")
 
     def main(self):
-        print("Welcome to the Banking Application 😊")
+        print("Welcome to the PocketGuard Banking Application 😊")
         while True:
             make_transaction = input("Would you like to make a transaction? (Yes or No): ").lower()
             if make_transaction != "yes":
-                print("Thank you for using the Banking Application 😊")
+                print("Thank you for using the PocketGuard Banking Application 😊")
                 break
 
             current_balance = self.read_balance()
